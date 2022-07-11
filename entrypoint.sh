@@ -1,0 +1,1 @@
+dotnet SmallestDbApi.dll & /usr/local/bin/docker-entrypoint.sh mysqld

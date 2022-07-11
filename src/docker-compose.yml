@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+    database:
+        image: mysql:debian
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: "Your_password123"
+            MYSQL_DATABASE: smallestdbapi
